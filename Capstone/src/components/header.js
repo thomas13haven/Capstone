@@ -20,12 +20,13 @@ class Header extends Component {
         </div>
         <div className="header__about-me">
         <h1> About Me </h1>
+        </div>  
+        
+        <Drop/>
+         
         </div> 
        
-        </div>  
-        <div className="drops">
-        <Drop />
-        </div> 
+        
         <div className="header__contact">
         <h1> Contact Me </h1>
         </div> 
