@@ -1,0 +1,33 @@
+.header__jobs:hover {
+    
+    .drop1 {
+        @include shown;
+      }
+}
+
+.header__school:hover {
+    
+    .drop2 {
+        @include shown;
+      }
+}
+
+.header__about-me:hover {
+    
+    .drop3 {
+        @include shown;
+      }
+}
+
+.drop1 {
+    @include hidden;
+  }
+
+.drop2 {
+    @include hidden;
+     
+  }
+
+.drop3 {
+    @include hidden;
+  }

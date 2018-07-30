@@ -17,37 +17,18 @@
   flex-direction: row;
   align-content: center;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
+  justify-content: center;
+  
 }
-.header__nav h1 {
+.header__nav a {
   font-size: 21px;
   color: white;
   width: auto;
   margin: 10px;
   flex: 1;
   margin-left: 42px;
-}
-.drops {
-    grid-column: 2/5;
-    display: grid;
-    grid-template-columns: repeat(3, auto)
-}
-
-.drop1 {
-    position: relative;
-  width: 200px;
-
-}
-.drop2 {
-  position: relative;
-  width: 200px;
- 
-}
-.drop3 {
-  position: relative;
-  width: 200px;
- 
 }
 
 .header__home {

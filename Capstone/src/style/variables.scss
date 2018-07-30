@@ -1,3 +1,24 @@
 $color-white1: #e9dfdf;
 $color-black1: #00000081;
 $color-black2: #312f2f6e;
+
+@mixin hidden {
+  color: transparent;
+  width: 200px;
+  position: absolute;
+  height: 1px;
+  font-size: 0.5px;
+}
+
+@mixin shown {
+  position: relative;
+  width: 200px;
+  box-shadow: 2px 2px 2px rgba(221, 221, 221, 0.555);
+  background-color: white;
+  margin-left: 94px;
+  border: 1px solid white;
+  color: black;
+  border-radius: 5px;
+  height: auto;
+  font-size: 18px;
+}
