@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 
- class Page extends Component {
+export default class Question extends Component {
   render() {
     return (
       <div>
-        
+        social or naaa
       </div>
     );
   }
 }
-
-export default Page;
