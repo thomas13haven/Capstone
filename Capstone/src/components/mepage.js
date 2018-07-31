@@ -9,12 +9,20 @@ import React, { Component } from 'react';
 
       <div className="MainDescription">
       <h1 className="Title">Wow I just did this</h1>
-      <p className="Info">If I write this in the third person again it will screw me up, Here a certain screen that will hopefully teach you guys a little bit about Thomas</p>
+      <p className="Info">If I write this in the third person again it will screw me up, Here a certain screen that will hopefully teach you guys a little bit about Thomas: I mean Me.</p>
       </div>
 
       <div className="Description">
-      <h1 className="Title"> </h1>
-      <p className="Info"> </p>
+      <h1 className="Title">My Favorites</h1>
+      <p className="Info">
+      <a href="music">My Favorite Music</a>
+      <a href="games">My Favorite Games</a>
+      <a href="shows">My Favorite Shows</a>
+      <a href="youtubers">My Favorite Youtubers</a>
+      <a href="animals">My Favorite Animals</a>
+      
+      
+      </p>
       </div>
 
       <div className="Description">

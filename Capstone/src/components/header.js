@@ -17,7 +17,7 @@ class Header extends Component {
       <div className="header">
         <div className="header__nav">
         <div className="header__home">
-        <a href="home"><i className="fas fa-home"></i></a>
+        <a href="/"><i className="fas fa-home"></i></a>
         
         </div> 
         <div className="header__jobs">

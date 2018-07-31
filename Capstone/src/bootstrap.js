@@ -16,6 +16,11 @@ import MeContent from "./components/mepage";
 import Talk from "./components/talk";
 import Email from "./components/contactpage";
 import Question from "./components/question";
+import Shows from "./components/Favs/shows";
+import Music from "./components/Favs/music";
+import Youtubers from "./components/Favs/youtubers";
+import Games from "./components/Favs/games";
+import Animals from "./components/Favs/animals";
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
@@ -27,13 +32,18 @@ function main() {
       <BrowserRouter>
         <Switch>
           <Main>
-          <Route path='/home' component={HomeContent} />
+          <Route path='/' exact component={HomeContent} />
           <Route path='/jobpage' component={JobContent} />
           <Route path='/schoolpage' component={SchoolContent} />
           <Route path='/mepage' component={MeContent} />
           <Route path='/contactpage' component={Email}/>
           <Route path='/talk' component={Talk} />
           <Route path="/question" component={Question}/>
+          <Route path="/shows" component={Shows}/>
+          <Route path="/music" component={Music}/>
+          <Route path="/youtubers" component={Youtubers}/>
+          <Route path="/games" component={Games}/>
+          <Route path="/animals" component={Animals}/>          
           </Main>
         </Switch>
       </BrowserRouter>
