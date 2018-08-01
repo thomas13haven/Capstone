@@ -15,26 +15,25 @@ import React, { Component } from 'react';
       <div className="Description">
       <h1 className="Title">My Favorites</h1>
       <p className="Info">
+      <div className="Content">
       <a href="music">My Favorite Music</a>
+      </div>
+      <div className="Content">
       <a href="games">My Favorite Games</a>
+      </div>
+      <div className="Content">
       <a href="shows">My Favorite Shows</a>
+      </div>
+      <div className="Content">
       <a href="youtubers">My Favorite Youtubers</a>
-      <a href="animals">My Favorite Animals</a>
-      
-      
+      </div>
+      <div className="Content">
+      <a href="animals">My Favorite Animals</a>    
+      </div> 
       </p>
       </div>
 
-      <div className="Description">
-      <h1 className="Title"> </h1>
-      <p className="Info"> </p>
-      </div>
       
-      <div className="Description">
-      <h1 className="Title"> </h1>
-      <p className="Info"> </p>
-
-      </div>
     </div>
       </div>
     );

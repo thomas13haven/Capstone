@@ -3,29 +3,31 @@
   grid-template-columns: 2fr 1fr;
   grid-template-rows: repeat(2, 1fr);
   top: 42px;
-  height: 42px;
+  height: 80px;
   background: linear-gradient(to bottom right, $color-black1, $color-black2);
   position: fixed;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bolder;
   width: 100vw;
+  left: 0;
+  align-content: center;
+  justify-content: center;
 }
 .header__nav {
   align-content: end;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: 1fr;
   justify-content: center;
+  padding-top: 20px;
 
 }
 .header__nav a {
-  align-content: end;
   font-size: 24px;
   color: white;
   width: auto;
   margin: 10px;
   flex: 1;
-  margin-left: 42px;
   align-self: end;
   justify-self: center;
   margin-bottom: 0px;
@@ -40,11 +42,9 @@
 
 .header__home a i {
   border-radius: 50%;
-  width: 42px;
-  height: 42px;
   align-self: flex-start;
   font-size: 42px;
-  color: white;
+  color: $color-white1;
 }
 
 .header__contact {
@@ -52,10 +52,12 @@
   align-items: center;
   justify-content: flex-end;
   margin-right: 42px;
-  color: white;
+  color: $color-white1;
 }
 
 .header__contact a {
-  font-size: 14px;
-  color: white;  
+  font-size: 12px;
+  color: $color-white1; 
 }
+
+

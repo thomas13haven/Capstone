@@ -6,7 +6,7 @@ import Title from './title';
 export default class Main extends Component {
   render() {
     return (
-      <div>
+      <div className="ALL">
         <Title />
         <Header/>
         {this.props.children}

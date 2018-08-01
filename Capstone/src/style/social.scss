@@ -1,3 +1,33 @@
 .MainDescription a {
-    font-size: 80px;
+  font-size: 42px;
+  height: 30vh;
+}
+
+//also mepage!
+.Info {
+  display: grid;
+  padding: 20px;
+  grid-gap: 20px;
+}
+.Info a {
+  color: $color-white1;
+  text-shadow: 1px 2px 3px $color-black2;
+}
+.Info .Content {
+  background-color: black;
+  padding: 10px;
+}
+
+.socialTalk {
+  color: $color-white1;
+  font-size: 24px;
+  background-color: $color-black2;
+  padding: 10px;
+}
+
+.Info a:hover {
+  color: $color-black2;
+  font-size: 24px;
+  background-color: $color-white1;
+  padding: 1px;
 }

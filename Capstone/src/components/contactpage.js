@@ -9,8 +9,8 @@ export default class Email extends Component {
 
       <div className="MainDescription">
       <h1 className="Title">Hello do you have a Question or just want to talk? </h1>
-      <a href="talk">Lets Talk!</a>
-      <a href="question">Why Would I want to talk with you?</a>
+      <a href="talk"className="socialTalk">Lets Talk!</a>
+      <a href="question"className="socialTalk">Why Would I want to talk with you?</a>
       </div>
 
       

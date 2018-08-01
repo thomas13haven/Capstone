@@ -6,18 +6,28 @@
     "Lucida Sans", Arial, sans-serif;
   font-weight: lighter;
   top: 0px;
-  background-color: rgba(196, 14, 14, 0.678);
-  width: 100vw
+  background-color: $color-red1;
+  width: 100vw;
+  left: 0;
+}
+
+.SubTitle {
+    background: $color-white1;
+    border-left: 10px solid;
+    border-image: linear-gradient(to bottom right, #00ffaa, #3f7185) 1 100%;
+    width: auto;
+    padding: 5px;
 }
 
 .webname {
+    padding-left: 40px;
     flex: 1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: lighter;
     letter-spacing: 2px;
     font-size: 30px;
-    color: white;
-    text-shadow: 1px 1px black;
+    color: $color-white1;
+    text-shadow: 1px 1px $color-black1;
     align-self: center;
 }
 
@@ -30,6 +40,6 @@
     font-weight: bolder;
     letter-spacing: 10px;
     font-size: 24px;
-    color: white;
-    text-shadow: 1px 1px black;
+    color: $color-white1;
+    text-shadow: 1px 1px $color-black1;
 }

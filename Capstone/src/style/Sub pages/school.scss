@@ -1,0 +1,15 @@
+.Content {
+    margin-top: 0px;
+    .Title {
+        color: $color-black1;
+        background: $color-white1;
+        border-radius: 0px;
+    }
+}
+.Info {
+    background-color: $color-red1;
+    padding-left: 10px;
+    margin-left: -10px;
+    color: $color-white1;
+    font-size: 21px;
+}

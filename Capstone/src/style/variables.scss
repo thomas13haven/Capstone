@@ -1,10 +1,14 @@
 $color-white1: #e9dfdf;
-$color-black1: #00000081;
-$color-black2: #312f2f6e;
+$color-black1: #000000;
+$color-black2: #352a2a;
+$color-red1: rgb(63, 113, 133);
+$color-secondary: rgb(0, 255, 170);
+
+
 
 @mixin hidden {
   color: transparent;
-  width: 200px;
+  width: 0px;
   position: absolute;
   height: 1px;
   font-size: 0.5px;
@@ -14,11 +18,24 @@ $color-black2: #312f2f6e;
   position: absolute;
   width: 200px;
   box-shadow: 2px 2px 2px rgba(221, 221, 221, 0.555);
-  background-color: white;
-  border: 1px solid white;
-  color: black;
+  background-color: $color-white1;
+  border: 1px solid $color-white1;
+  color: $color-black1;
   border-radius: 5px;
   height: auto;
   font-size: 18px;
 }
+@mixin shownBig {
+  position: absolute;
+  width: 30vw;
+  box-shadow: 2px 2px 2px rgba(221, 221, 221, 0.555);
+  background-color: $color-white1;
+  border: 1px solid $color-white1;
+  color: $color-black1;
+  border-radius: 5px;
+  height: auto;
+  font-size: 18px;
+}
+
+
 

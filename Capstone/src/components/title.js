@@ -5,10 +5,10 @@ export default class Title extends Component {
     return (
       <div className="title">
       <h1 className="webname">
-        Who Is this "Thomas" guy?
+        Thomas Perkins
         </h1>
         <p className="Description">
-        Indepth Profile
+        In  depth  Profile
         </p>
       </div>
     );
