@@ -5,9 +5,12 @@
 .images {
   background-color: $color-red1;
   padding: 10px;
+  border: 20px solid $color-black1;
 }
 
 .images img {
   width: auto;
-  height: 25vh;
+  height: 200px;
+  border:5px solid $color-white1;
+  margin: 5px;
 }
