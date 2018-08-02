@@ -1,0 +1,13 @@
+.imgWrapper {
+  display: grid;
+}
+
+.images {
+  background-color: $color-red1;
+  padding: 10px;
+}
+
+.images img {
+  width: auto;
+  height: 25vh;
+}

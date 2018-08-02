@@ -21,6 +21,7 @@ import Music from "./components/Favs/music";
 import Youtubers from "./components/Favs/youtubers";
 import Games from "./components/Favs/games";
 import Animals from "./components/Favs/animals";
+import Random from "./components/random";
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
@@ -43,7 +44,8 @@ function main() {
           <Route path="/music" component={Music}/>
           <Route path="/youtubers" component={Youtubers}/>
           <Route path="/games" component={Games}/>
-          <Route path="/animals" component={Animals}/>          
+          <Route path="/animals" component={Animals}/>    
+          <Route path="/random" component={Random}/>      
           </Main>
         </Switch>
       </BrowserRouter>

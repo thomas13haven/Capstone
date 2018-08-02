@@ -13,10 +13,13 @@
   align-content: center;
   justify-content: center;
 }
+.NewTitle{
+  display: none;
+}
 .header__nav {
   align-content: end;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   justify-content: center;
   padding-top: 20px;
@@ -58,6 +61,12 @@
 .header__contact a {
   font-size: 12px;
   color: $color-white1; 
+}
+
+.Imager a {
+  z-index: 100;
+  display: grid;
+  color: white;
 }
 
 

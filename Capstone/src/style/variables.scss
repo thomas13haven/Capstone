@@ -27,13 +27,13 @@ $color-secondary: rgb(0, 255, 170);
 }
 @mixin shownBig {
   position: absolute;
-  width: 30vw;
+  width: 90vw;
   box-shadow: 2px 2px 2px rgba(221, 221, 221, 0.555);
   background-color: $color-white1;
   border: 1px solid $color-white1;
   color: $color-black1;
   border-radius: 5px;
-  height: auto;
+  height: fit-content;
   font-size: 18px;
 }
 

@@ -18,6 +18,11 @@
         @include shown;
       }
 }
+.Imager:hover {
+  .drop4 {
+    @include shown;
+  }
+}
 
 .drop1 {
     @include hidden;
@@ -29,5 +34,8 @@
   }
 
 .drop3 {
+    @include hidden;
+  }
+  .drop4 {
     @include hidden;
   }
